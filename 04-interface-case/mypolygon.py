@@ -1,9 +1,14 @@
 import turtle
 
+
+def square(t, length):
+    for iterator in range(4):
+        t.fd(100)
+        t.lt(length)
+
+
 bob = turtle.Turtle()
 
-for iterator in range(4):
-    bob.fd(100)
-    bob.lt(90)
+square(bob, 90)
 
 turtle.mainloop()
