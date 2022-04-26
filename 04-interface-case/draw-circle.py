@@ -8,8 +8,8 @@ def polygon(t, n, length):
 
 def circle(t, r):
     from math import pi
-    n = 50
     circumference = 2 * pi * r
+    n = int(circumference / 3) + 1
     length = circumference / n
     polygon(t, n, length)
 
