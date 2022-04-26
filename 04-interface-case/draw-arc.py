@@ -1,3 +1,5 @@
+import turtle
+
 def arc(t, r, angle):
     from math import pi
     arc_length = 2 * pi * r * angle / 360
