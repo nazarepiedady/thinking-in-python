@@ -9,3 +9,10 @@ def arc(t, r, angle):
     for iterator in range(n):
         t.fd(step_length)
         t.lt(step_angle)
+
+
+custom_arc = turtle.Turtle()
+
+arc(custom_arc, 60, 90)
+
+turtle.mainloop()
