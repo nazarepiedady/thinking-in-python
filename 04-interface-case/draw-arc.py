@@ -1,10 +1,6 @@
 import turtle
 
 
-def polygon(t, n, length):
-    angle = 360 / n
-    polyline(t, n, length, angle)
-
 def arc(t, r, angle):
     from math import pi
     from polyline import polyline
