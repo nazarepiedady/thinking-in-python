@@ -7,11 +7,8 @@ def polygon(t, n, length):
         t.lt(polygon_angle)
 
 def circle(t, r):
-    from math import pi
-    circumference = 2 * pi * r
-    n = int(circumference / 3) + 1
-    length = circumference / n
-    polygon(t, n, length)
+    from draw_arc import arc
+    arc(t, r, 360)
 
 bob = turtle.Turtle()
 
