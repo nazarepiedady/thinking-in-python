@@ -6,6 +6,10 @@ def polyline(t, n, length, angle):
         t.fd(length)
         t.lt(angle)
 
+def polygon(t, n, length):
+    angle = 360 / n
+    polyline(t, n, length, angle)
+
 def arc(t, r, angle):
     from math import pi
     arc_length = 2 * pi * r * angle / 360
