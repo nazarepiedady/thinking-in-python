@@ -13,4 +13,5 @@ def show_content_ntimes(content, times):
     show_content_ntimes(content, times - 1)
 
 
-countdown(10)
+#countdown(10)
+show_content_ntimes('You are seeing me now', 6)
