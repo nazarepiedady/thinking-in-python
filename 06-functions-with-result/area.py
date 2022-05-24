@@ -5,8 +5,3 @@ def area(radius):
     '''
     import math
     return math.pi * radius ** 2
-
-
-_area = area(6.8)
-
-print(_area)
