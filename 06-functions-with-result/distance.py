@@ -1,2 +1,2 @@
 def calculate_distance(x1, y1, x2, y2):
-    return 0.0
+    horizontal_distance = x2 - x1
