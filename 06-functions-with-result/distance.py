@@ -5,4 +5,4 @@ def calculate_distance(x1, y1, x2, y2):
     vertical_distance = y2 - y1
     squared_distance = horizontal_distance ** 2 + vertical_distance ** 2
     distance = math.sqrt(squared_distance)
-    return 0.0
+    return distance
