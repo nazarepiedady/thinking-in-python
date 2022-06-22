@@ -1,5 +1,4 @@
+from uses_only import uses_only
+
 def uses_all(word, required):
-    for letter in required:
-        if letter not in word:
-            return False
-    return True
+    return uses_only(required, word)
