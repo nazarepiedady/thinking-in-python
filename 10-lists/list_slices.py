@@ -4,9 +4,12 @@ alphabet_letters = ['a', 'b', 'c', 'd', 'e', 'f']
 second_third_letters = alphabet_letters[1:3]
 # slice the first four elements
 first_four_letters = alphabet_letters[:4]
+# slice from third index element to the end
+from_third_letters = alphabet_letters[3:]
+
 
 
 print(
     second_third_letters, first_four_letters,
-    #from_third_letters, alphabet_letters_copy
+    from_third_letters, #alphabet_letters_copy
 )
