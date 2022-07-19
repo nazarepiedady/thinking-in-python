@@ -6,3 +6,7 @@ alphabet_letters = ['a', 'b', 'c']
 more_alphabet_letters = ['d', 'e']
 alphabet_letters.extend(more_alphabet_letters)
 print(alphabet_letters)
+
+unordered_alphabet_letters = ['d', 'c', 'e', 'b', 'a']
+unordered_alphabet_letters.sort()
+print(unordered_alphabet_letters)
