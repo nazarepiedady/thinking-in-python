@@ -1,5 +1,5 @@
-def add_all(number_collection):
-    total_number_collection = 0
-    for number in number_collection:
-        total_number_collection += number
-    return total_number_collection
+def add_all(numbers_collection):
+    total_numbers_collection = 0
+    for number in numbers_collection:
+        total_numbers_collection += number
+    return total_numbers_collection
