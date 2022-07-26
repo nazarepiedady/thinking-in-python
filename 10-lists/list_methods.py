@@ -11,8 +11,12 @@ unordered_alphabet_letters = ['d', 'c', 'e', 'b', 'a']
 unordered_alphabet_letters.sort()
 print(unordered_alphabet_letters)
 
-
 alphabet_letters = ['a', 'b', 'c', 'd', 'e']
 alphabet_letters.pop(1)
 alphabet_letters.pop()
+print(alphabet_letters)
+
+
+alphabet_letters = ['a', 'b', 'c', 'd', 'e']
+alphabet_letters.remove('c')
 print(alphabet_letters)
