@@ -20,3 +20,8 @@ print(alphabet_letters)
 alphabet_letters = ['a', 'b', 'c', 'd', 'e']
 alphabet_letters.remove('c')
 print(alphabet_letters)
+
+
+alphabet_letters = ['a', 'b', 'c', 'd', 'e', 'f']
+del alphabet_letters[3:]
+print(alphabet_letters)
